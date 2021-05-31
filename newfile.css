@@ -207,8 +207,10 @@ margin-bottom: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     padding-bottom: 34px;
-   margin-left: 40px;
+   margin-left : 40px;
+
 }
 #contact-box input, 
 #contact-box textarea{
@@ -218,8 +220,15 @@ margin-bottom: 1rem;
    padding-top : 0.5rem;
    padding-bottom: 0.5rem;
     border-radius: 9px;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 } 
+@media (min-width : 720px)
+{
+#contact-box
+{
+margin-left : 120px;
+}
+}
 .btn
 {
 	font-size: 1.5rem;
@@ -259,4 +268,5 @@ footer p
 	font-size: 25px;
 
 
-}*/
+}
+
